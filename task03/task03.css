@@ -1,0 +1,41 @@
+*{
+	padding: 20px;
+	margin: 0px;
+}
+.main{
+	position: relative;
+	height: 380px;
+	background-color: #eee;
+	border: thin solid #999;
+}
+.logo{
+	padding: 0;
+	width: 80px;
+	height: 80px;
+}
+.part1{
+	background-color: white;
+	width: 160px;
+	float: left;
+	border: thin solid #999;
+}
+.part1 p{
+	padding: 0;
+	float: right;
+}
+.part2{
+	border: thin solid #999;
+	background-color: white;
+	margin-left: 230px;
+	margin-right: 150px;
+
+}
+.part3{
+	background-color: white;
+	width: 80px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border: thin solid #999;
+}
+
