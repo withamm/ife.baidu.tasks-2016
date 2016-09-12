@@ -1,0 +1,15 @@
+.wrap{
+	width: 600px;
+	margin: 30px auto;
+	box-shadow: 0 0 8px #999;
+	padding: 20px;
+}
+.row{
+	display: table-row;
+	height: 30px;
+}
+.cell{
+	text-align: center;
+	display: table-cell;
+	width: 200px;
+}

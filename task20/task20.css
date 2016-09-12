@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	margin: 50px;
+	box-shadow: 0 0 8px #ddd;
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+#input{
+	box-shadow: 0 0 8px #ddd;
+}
+.show{
+	margin: 20px 0;
+	width: 400px;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.show span,.match{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+}
+.match{
+	background: #ffC0CB;
+	box-shadow: 0 0 8px #999999;
+}

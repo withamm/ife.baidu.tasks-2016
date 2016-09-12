@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	margin: 50px auto;
+	width: 400px;
+	box-shadow: 0 0 8px #ddd;
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+#input{
+	height: 25px;
+	box-shadow: 0 0 8px #ddd;
+}
+.show{
+	margin: 20px 0;
+	width: 400px;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.show span{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	background: #FFC0CB;
+	margin: 10px;
+	padding: 10px;
+}

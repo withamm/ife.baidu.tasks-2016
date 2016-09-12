@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#header{
+	background-color:#333333;
+	height: 60px;
+	width: 100%;
+}
+#header img{
+	height: 40px;
+	width: 40px;
+	background-color:#262626;
+}
+#logo{
+	float: left;
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-top: 8px;
+}
+#header ul{
+	float: right;
+}
+#header ul li{
+	font-size: 12px;
+	float: right;
+	line-height: 60px;
+	margin-right: 20px;
+}
+.li1 a{
+	color: white;
+}
+.li2 a{
+	color: #ccc;
+}
+#main{
+	position: relative;
+	padding: 20px;
+	background-color: #eee;
+}
+#left{
+	margin-right: 420px;
+}
+.part{
+	overflow: hidden;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	border-right: #ccc solid 2px;
+	border-bottom: #ccc solid 2px;
+}
+.part h1{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.part h2{
+	margin: 15px 0;
+	color: #999999;
+	font-size: 18px;
+}
+.part h3{
+	margin: 10px 0;
+	color: #999999;
+	font-size: 12px;
+	font-weight: lighter;
+}
+.part p{
+	text-indent: 3em;
+}
+.part e{
+	font-weight: bold;
+}
+.part img{
+	height: 30%;
+	width: 30%;
+}
+.part ul{
+	list-style: none;
+}
+.part ol li{
+	margin-left: 50px;
+	font-size: 15px;
+	line-height: 150%;
+}
+.combination{
+	float: left;
+	margin: 20px;
+	font-size: 12px;
+	border: 1pt #ccc solid;
+	height: 120px;
+	width: 120px;
+}
+.combination img{
+	margin-left: 18px;
+	height: 70%;
+	width: 70%;
+}
+table{
+	border-collapse: collapse;
+	border: 1px solid #999999; 
+	border-spacing: 0px;
+}
+tr{
+	text-align: left;
+}
+td,th{
+	border: 1px solid #999999; 
+	width:330px;
+}
+#half-w{
+	width: 165px;
+}
+.delete{
+	width: 165px;
+}
+th{
+	color: white;
+	background-color: #464646;
+}
+#last-tr{
+	background-color: #ccc;
+}
+#right{
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	font-size: 12px;
+	line-height: 200%;
+	background-color: white;
+	margin: 10px;
+	padding: 20px;
+	width: 360px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+#right h2{
+	border-left: 3px solid #ccc;
+	padding-left: 10px;
+	color: #000;
+	font-size: 18px;
+}
+form{
+	margin: 20px;
+}
+.tableRow{
+	padding: 10px
+	display: table-row;
+}
+.tableCell{
+	padding: 5px;
+	vertical-align: top;
+	width: 180px;
+	display: table-cell;
+}
+.tableCell:first-child{
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+button{
+	border:none;
+	width: 320px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+}
+#annotation{
+	font-size: 13px;
+	color: #ccc;
+}
+#footer{
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	background-color: #333333;
+	height: 60px;
+}

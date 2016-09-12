@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #eee;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 20px;
+	color: #999;
+}
+h5{
+	font-size: 12px;
+	color: #ccc;
+}
+.header{
+	padding: 10px 15px;
+	height: 40px;
+	background: #333333;
+}
+.logo{
+	float: left;
+	font-size: 25px;
+	color: red;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+}
+.logo p{
+	padding-bottom: 10px;
+}
+.header img{
+	height: 40px;
+	width: 40px;
+}
+.header li{
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+	line-height: 30px;
+}
+.header li a{
+	text-decoration: none;
+	color: #eee;
+}
+.header li a:hover{
+	color: #999;
+}
+.essay1,.essay2,.picture,.essay3,.sidebar{
+	background-color: #fff;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 2px 2px 8px #999;
+}
+.picture img{
+	height: 200px;
+	border: 1px solid #999;
+}
+table{
+	border-collapse: collapse;
+}
+table th,table td{
+	border: 1px solid #ccc;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.essay3 th{
+	background-color: #333;
+	color: #fff;
+	width: 400px;
+}
+#half-w{
+	width: 200px;
+}
+#last-tr{
+	background-color: #eee;
+}
+.sidebar h1{
+	border-left: 5px solid #eee;
+	margin-left: 40px;
+	padding-left: 20px;
+	font-size: 30px;
+}
+form{
+	width: 450px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.tableRow{
+	display: table-row;
+}
+.tableCell{
+	vertical-align: top;
+	display: table-cell;
+}
+.tableCell:first-child{
+	text-align: right;
+}
+button{
+	width: 1200px;
+	height: 30px;
+	margin: 10px auto;
+	background-color: blue;
+	color: #fff;
+	border-radius: 5px;
+	border: 0;
+	letter-spacing: 5px;
+}
+.footer{
+	height: 70px;
+	background: #333;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 20px;
+}

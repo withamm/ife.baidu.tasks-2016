@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task32</title>
+	<link rel="stylesheet" href="task32.css">
+	<script src="task32.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="sidebar">
+			<fieldset>
+				<legend>表单制作工厂</legend>
+				<div class="row">
+					<div class="cell"><span>请选择表单类型：</span></div>
+					<div class="cell">
+						<select name="mold" id="mold">
+							<option>text</option>
+							<option>textarea</option>
+							<option>radio</option>
+							<option>checkbox</option>
+							<option>select</option>
+						</select>
+						<select name="textMold" id="textMold">
+							<option>用户名</option>
+							<option>密码</option>
+							<option>邮箱</option>
+							<option>手机号</option>
+							<option>自定义</option>
+						</select>
+					</div>
+				</div>
+				<div class="row" id="row1">
+					<div class="cell">
+						<p>请输入表单项目名称：</p>
+					</div>
+					<div class="cell">
+						<input type="text" id="moldName">					
+					</div>
+				</div>
+				<div class="row" id="row2">
+					<div class="cell">
+						<p>请输入标签名称：</p>
+						<p class="remark">（同时输入多个标签名时，请用空格、逗号或回车符隔开）</p>
+					</div>
+					<div class="cell">
+						<textarea name="tagName" id="tagNames" cols="20" rows="6"></textarea>
+						<button id="sureBtn">确认</button>
+					</div>
+					<div id="showTags">
+						<p>标签名：</p>
+					</div>					
+				</div>
+				<!-- <div class="example">示例：
+					<div class="row">
+						<div class="cell1">用户名：</div>
+						<div class="cell"><input type="text"><span class="note">请输入4-16个字符</span></div>
+					</div>
+				</div> -->
+				<button id="submitBtn">提交</button>
+			</fildset>
+		</div>
+		<div class="main">
+			<fieldset>
+				<legend>表单</legend>
+				<form id="newForm"></form>
+			</fieldset>
+		</div>
+	</div>
+</body>
+</html>

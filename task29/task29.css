@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	padding: 20px;
+	width: 600px;
+	margin: 40px auto;
+	box-shadow: 0 0 8px #999;
+	font-size: 20px;
+}
+.row{
+	display: table-row;
+}
+.cell{
+	display: table-cell;
+	padding: 10px;
+}
+.name{
+	text-align: center;
+	width: 100px;
+	height: 40px;
+}
+input{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #999;
+	border-radius: 5px;
+}
+.note{
+	font-size: 15px;
+	color: #999;
+	width: 300px;
+	text-align: center;
+	padding: 10px 0;
+}
+button{
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 5px;
+	color: #fff;
+	background: blue;
+	width: 100px;
+	height: 40px;
+}

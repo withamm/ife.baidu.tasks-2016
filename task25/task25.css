@@ -1,0 +1,15 @@
+ul li{
+	list-style-type: none;
+}
+li p{
+	height: 20px;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 20px;
+}
+.spread{
+	background: url(images/spread.jpg) -5px 15px no-repeat;
+}
+.fold{
+	background: url(images/fold.jpg) -5px 15px no-repeat;
+}

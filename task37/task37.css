@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+#groundFloor{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	background: #000;
+	opacity: 0.4;
+	display: none; 
+}
+#floatFloor{
+	position: absolute;
+	top: 35%;
+	left: 35%;
+	/*transform:translate(-50%,-50%);*/
+	width: 30%;
+	height: 30%;
+	background: #cdf;
+	z-index: 200;
+	display: none;
+}

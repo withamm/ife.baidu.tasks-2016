@@ -1,0 +1,16 @@
+div{
+	margin: 10px;
+	width: 40%;
+	height: 70%;
+	border: 2px solid #999;
+	display: flex;
+	justify-content: center;	/* space-around：弹性盒子元素会平均地分布在行里，两端保留子元素与子元素之间间距大小的一半。 */
+	align-items: center;		/* center：弹性盒子元素在该行的侧轴（纵轴）上居中放置。 */
+	overflow: hidden;			/* hidden : 　不显示超过对象尺寸的内容 */
+	box-sizing: border-box;		/**/	
+}
+.child0{
+	width: 1000px;
+	height: 500px;
+	margin: 20px auto;
+}

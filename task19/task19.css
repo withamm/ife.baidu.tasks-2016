@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	margin: 50px;
+	box-shadow: 0 0 8px #ddd;
+	padding: 20px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+#input{
+	height: 25px;
+	box-shadow: 0 0 8px #ddd;
+}
+.show{
+	display: flex;
+	justify-content: flex-start;    /*弹性盒子元素将向行中间位置对齐*/
+	align-items: flex-end;			/*弹性盒子元素的侧轴（纵轴）起始位置的边界紧靠住该行的侧轴结束边界。*/
+	margin-top: 10px;
+	padding: 0 10px;
+}
+.bar{
+	flex-basis: 10px;				/*设置弹性盒子的初始像素为10像素*/
+	margin-left: 10px;
+}
