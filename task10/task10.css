@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 20px;
+}
+.flex,.flex > div{
+	box-sizing: border-box;
+}
+.flex{
+	border: 1px solid gray;
+	/* 弹性布局 */
+	display: flex;
+	display: -webkit-flex;/* Safari */
+	display: -ms-flexbox;
+	/* 项目在主轴上两端对齐，项目之间的间隔都相等 */
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	/* 项目在交叉轴上沿交叉轴中点对齐 */
+	align-items: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	/* flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。 */
+	flex: none;
+	-webkit-flex: none;
+	-ms-flex: none;
+}
+.flex > div{
+	width: 150px;
+	border: 1px solid #f00;
+	margin-bottom: 10px;	
+}
+.flex-item1{
+	height: 120px;
+}
+.flex-item2{
+	height: 100px;
+}
+.flex-item3{
+	height: 40px;
+}
+.flex-item4{
+	height: 200px;
+	border: 1px solid blue!important;
+}
+@media all and (max-width: 640px){
+	.flex-item4{
+		/* 设置弹性盒对象元素的顺序 */
+		order: -1;
+		-webkit-order: -1;
+		-ms-flex-order: -1;
+	}
+	.flex{
+		/* 规定灵活的项目在必要的时候拆行或拆列 */
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		/* 项目在交叉轴上沿交叉轴的起点对齐 */
+		align-items: flex-start;
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+	}
+}
